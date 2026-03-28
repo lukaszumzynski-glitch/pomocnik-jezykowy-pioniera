@@ -121,7 +121,7 @@ def main():
     # Inicjalizacja stanu sesji dla wszystkich pól
     if "input_text_val" not in st.session_state: st.session_state["input_text_val"] = ""
     if "source_lang_val" not in st.session_state: st.session_state["source_lang_val"] = "auto-wykrywanie"
-    if "target_lang_val" not in st.session_state: st.session_state["target_lang_val"] = "angielski"
+    if "target_lang_val" not in st.session_state: st.session_state["target_lang_val"] = "polski"
     if "translation_val" not in st.session_state: st.session_state["translation_val"] = ""
     if "analysis_val" not in st.session_state: st.session_state["analysis_val"] = ""
 
